@@ -1,0 +1,162 @@
+[
+    {
+        "teamId": 1,
+        "teamName": "Mercedes",
+        "teamFullName": "Mercedes-AMG Petronas F1 Team",
+        "teamChief": "Toto Wolff",
+        "drivers": [
+            {
+                "driverId": 1,
+                "driverName": "Lewis Hamilton"
+            },
+            {
+                "driverId": 2,
+                "driverName": "Valtteri Bottas"
+            }
+        ]
+    },
+    {
+        "teamId": 2,
+        "teamName": "Red Bull",
+        "teamFullName": "Red Bull Racing Honda",
+        "teamChief": "Christian Horner",
+        "drivers": [
+            {
+                "driverId": 3,
+                "driverName": "Max Verstappen"
+            },
+            {
+                "driverId": 4,
+                "driverName": "Sergio Perez"
+            }
+        ]
+    },
+    {
+        "teamId": 3,
+        "teamName": "Ferrari",
+        "teamFullName": "Scuderia Ferrari Mission Winnow",
+        "teamChief": "Mattia Binotto",
+        "drivers": [
+            {
+                "driverId": 5,
+                "driverName": "Charles Leclerc"
+            },
+            {
+                "driverId": 6,
+                "driverName": "Carlos Sainz"
+            }
+        ]
+    },
+    {
+        "teamId": 4,
+        "teamName": "McLaren",
+        "teamFullName": "McLaren F1 Team",
+        "teamChief": "Andreas Seidl",
+        "drivers": [
+            {
+                "driverId": 7,
+                "driverName": "Daniel Ricciardo"
+            },
+            {
+                "driverId": 8,
+                "driverName": "Lando Norris"
+            }
+        ]
+    },
+    {
+        "teamId": 5,
+        "teamName": "Alpine",
+        "teamFullName": "Alpine F1 Team",
+        "teamChief": "Davide Brivio",
+        "drivers": [
+            {
+                "driverId": 9,
+                "driverName": "Fernando Alonso"
+            },
+            {
+                "driverId": 10,
+                "driverName": "Esteban Ocon"
+            }
+        ]
+    },
+    {
+        "teamId": 6,
+        "teamName": "AlphaTauri",
+        "teamFullName": "Scuderia AlphaTauri Honda",
+        "teamChief": "Franz Tost",
+        "drivers": [
+            {
+                "driverId": 11,
+                "driverName": "Pierre Gasly"
+            },
+            {
+                "driverId": 12,
+                "driverName": "Yuki Tsunoda"
+            }
+        ]
+    },
+    {
+        "teamId": 7,
+        "teamName": "Aston Martin",
+        "teamFullName": "Aston Martin Cognizant F1 Team",
+        "teamChief": "Otmar Szafnauer",
+        "drivers": [
+            {
+                "driverId": 13,
+                "driverName": "Sebastian Vettel"
+            },
+            {
+                "driverId": 14,
+                "driverName": "Lance Stroll"
+            }
+        ]
+    },
+    {
+        "teamId": 8,
+        "teamName": "Williams",
+        "teamFullName": "Williams Racing",
+        "teamChief": "Jost Capito",
+        "drivers": [
+            {
+                "driverId": 15,
+                "driverName": "George Russell"
+            },
+            {
+                "driverId": 16,
+                "driverName": "Nicholas Latifi"
+            }
+        ]
+    },
+    {
+        "teamId": 9,
+        "teamName": "Alfa Romeo Racing",
+        "teamFullName": "Alfa Romeo Racing ORLEN",
+        "teamChief": "Frédéric Vasseur",
+        "drivers": [
+            {
+                "driverId": 17,
+                "driverName": "Kimi Räikkönen"
+            },
+            {
+                "driverId": 18,
+                "driverName": "Antonio Giovinazzi"
+            }
+        ]
+    },
+    {
+        "teamId": 10,
+        "teamName": "Haas",
+        "teamFullName": "Uralkali Haas F1 Team",
+        "teamChief": "Guenther Steiner",
+        "drivers": [
+            {
+                "driverId": 19,
+                "driverName": "Mick Schumacher"
+            },
+            {
+                "driverId": 20,
+                "driverName": "Nikita Mazepin"
+            }
+        ]
+    }
+]
