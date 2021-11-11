@@ -5,20 +5,24 @@ const Nav = () => (
   <nav>
     <ul>
       {teams.map(team => {
-        const url = `/${team.teamName}?teamId=${team.teamId}`.replace(/\s/g, "-");
+        const asUrl = `/${team.teamName}`.replace(/\s/g, "-");
+        const url = `${asUrl}?teamId=${team.teamId}`;
 
         return (
           <li key={url}>
-            <Link href={url}>{team.teamName}</Link>
+            <Link href={url} as={asUrl}>
+              {team.teamName}
+            </Link>
             <ul>
               {team.drivers.map(driver => {
-                const url =
-                  `/${team.teamName}/${driver.driverName}`.replace(/\s/g, "-") +
-                  `?teamId=${team.teamId}&driverId=${driver.driverId}`;
+                const asUrl = `/${team.teamName}/${driver.driverName}`.replace(/\s/g, "-");
+                const url = `${asUrl}?teamId=${team.teamId}&driverId=${driver.driverId}`;
 
                 return (
                   <li key={url}>
-                    <Link href={url}>{driver.driverName}</Link>
+                    <Link href={url} as={asUrl}>
+                      {driver.driverName}
+                    </Link>
                   </li>
                 );
               })}
