@@ -6,7 +6,7 @@ const Nav = () => (
     <ul>
       {teams.map(team => {
         const asUrl = `/${team.teamName}`.replace(/\s/g, "-");
-        const url = `${asUrl}?teamId=${team.teamId}`;
+        const url = `/[team]?teamId=${team.teamId}`;
 
         return (
           <li key={url}>
@@ -16,7 +16,7 @@ const Nav = () => (
             <ul>
               {team.drivers.map(driver => {
                 const asUrl = `/${team.teamName}/${driver.driverName}`.replace(/\s/g, "-");
-                const url = `${asUrl}?teamId=${team.teamId}&driverId=${driver.driverId}`;
+                const url = `/[team]/[driver]?teamId=${team.teamId}&driverId=${driver.driverId}`;
 
                 return (
                   <li key={url}>
