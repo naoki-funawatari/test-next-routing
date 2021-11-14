@@ -1,4 +1,4 @@
-import Link from "@/components/link";
+import Link from "@/components/Link";
 import teams from "@/assets/data/teams.json";
 
 const Nav = () => (
